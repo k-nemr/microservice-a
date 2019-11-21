@@ -1,0 +1,19 @@
+{
+  "name": "microservice-a",
+  "version": "0.0.1",
+  "description": "Microservice A is part of a POC to share common NodeJS code across microservices.",
+  "author": "k-nemr",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:k-nemr/microservice-a.git"
+  },
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "shared-package": "git@github.com:k-nemr/shared-package.git"
+  }
+}
